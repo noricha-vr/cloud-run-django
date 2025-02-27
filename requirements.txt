@@ -1,5 +1,6 @@
 boto3==1.37.2
 django==4.2.*
+psycopg2==2.9.10
 # django-modeltranslation==0.15.2
 django-storages==1.11.1
 # django-pwa==1.0.9
