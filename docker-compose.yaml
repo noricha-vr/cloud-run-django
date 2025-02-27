@@ -2,7 +2,9 @@ services:
 
   hello:
     container_name: 'hello'
-    image: 'hello'
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
        - ./app:/app
     env_file:
