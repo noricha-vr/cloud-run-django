@@ -22,23 +22,11 @@ Default options
 
 ## Setup
 
-### Step 1, Rest App
+### Step 1, Rename `hello` to your project name.
 
-```
-cd cloud-run-django
-reset_app.sh
-rm reset_app.sh
-cd app
-python3 manage.py startapp YOUR_APP_NAME
-```
+Project name should be use `a-z0-9` and `_`.
 
-### Step 2, Settings.py
-
-Replace ALLOWED_HOSTS by this line.
-
-```
-ALLOWED_HOSTS.append(os.environ.get('HTTP_HOST'))
-```
+But, cloud run service name can use `a-z0-9` and `-`.
 
 Change language settings.
 
