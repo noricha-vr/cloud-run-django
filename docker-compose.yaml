@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+
+  hello:
+    container_name: 'hello'
+    image: 'hello'
+    volumes:
+       - ./app:/app
+    env_file:
+      - .env
+    environment:
+      - DEBUG=True
+      - HTTP_HOST=0.0.0.0
+    ports:
+      - 'YOUR_MACHINE_PORT:8080'
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true

@@ -1,0 +1,24 @@
+# boto3==1.17.11
+django==3.2.8
+# django-modeltranslation==0.15.2
+# django-storages==1.11.1
+# django-pwa==1.0.9
+# djangorestframework==3.11.1
+# django-filter==2.3.0
+# django-widget-tweaks==1.4.8
+# django-tinymce==3.0.1
+# django-ckeditor==6.0.0
+# google-cloud-storage==1.37.1
+# google-cloud-translate==2.0.1
+# google-python-cloud-debugger==2.16
+# mysqlclient==1.4.6
+# ipwhois==1.1.0
+# payjp==0.1.0
+# pandas==1.2.0
+# pydub==0.24.1
+# pysqlite3==0.4.7
+# Pillow==7.1.2
+# python-dateutil==2.8.1
+# pytest-shutil==1.7.0
+# requests==2.23.0
+# scikit-learn==0.24.0
